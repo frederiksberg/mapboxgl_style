@@ -1,0 +1,26 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "trafik": {
+      "type": "vector",
+      "tiles": [
+        "https://tegola.frb-data.dk/maps/Trafik og Parkering/{z}/{x}/{y}.vector.pbf"
+      ],
+      "minZoom": 0,
+      "maxZoom": 14
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "pzone",
+      "type": "fill",
+      "source": "trafik",
+      "source-layer": "Parkeringszone"
+    }
+  ],
+  "id": "p6ez5pyeb"
+}
